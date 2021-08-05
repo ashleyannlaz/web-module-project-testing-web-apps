@@ -73,7 +73,7 @@ const ContactForm = () => {
       <h1>Contact Form</h1>
       <form onSubmit={handleSubmit}>
         <div>
-          <label htmlFor="firstName">First Name</label>
+          <label htmlFor="firstName">First Name*</label>
           <input
             onChange={handleChange}
             name="firstName"
